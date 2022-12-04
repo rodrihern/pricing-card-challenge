@@ -138,3 +138,35 @@ ul {
 li {
   margin-bottom: 5px;
 }
+
+@media (max-width: 780px) {
+  #card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  #card {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #top {
+    height: 33%;
+  }
+  
+  #bottom {
+    height: 67%;
+  }
+  
+  #bottom-left {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  #bottom-right {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+}
