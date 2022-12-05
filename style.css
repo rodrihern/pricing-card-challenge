@@ -148,25 +148,15 @@ li {
 @media (max-width: 576px) {
   #card {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
-  
-  #top {
-    height: 33%;
-  }
-  
-  #bottom {
-    height: 67%;
-  }
-  
+
   #bottom-left {
-    display: block;
     width: 100%;
-    height: 50%;
+
   }
   #bottom-right {
-    display: block;
     width: 100%;
-    height: 50%;
+
   }
 }
